@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Endless Pipe Effect</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  
+    <div id="pipe-container">
+        <div class="pipe"></div>
+        <!-- Signup Form -->
+        <div class="signup-container">
+            <h2>login Your Account</h2>
+            <form id="signup-form" class="signup-form">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                <div class="input-group">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number" pattern="[0-9]{10}">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <div class="submit-btn">
+                   <a href="/login" > <button type="submit">login</button></a>
+                </div>
+                <p class="login-link">Already have an account? <a href="/login">Login here</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
